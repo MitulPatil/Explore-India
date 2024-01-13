@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <title>Explore India</title>
+</head>
+<body>
+    <!--navbar--->
+    <nav class="navbar">
+        <h1 class="logo">Explore India</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#"></a>contact</li>
+        </ul>
+        <img src="./images/menu.png" alt="" class="menu-btn">
+    </nav>
+
+    <!--header-->
+    <header>
+        <div class="header-content">
+            <h2>Explore India</h2>
+            <div class="line"></div>
+            <h1>find next place to visit</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Events-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div> 
+        <div class="row">
+            <div class="col">
+                <img src="./images/mountain.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente laudantium tempore atque ad eius, consectetur ipsa minus natus quaerat harum</p>
+                <a href="#" class="ctn">Leran More</a>
+            </div>
+            <div class="col">
+                <img src="./images/maharashtra.jpg" alt="">
+                <h4>klasubai Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente laudantium tempore atque ad eius, consectetur ipsa minus natus quaerat harum</p>
+                <a href="#" class="ctn">Leran More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Explore-->
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE INDIA</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam autem placeat expedita dolorum maxime, magni assumenda nulla, eaque consectetur modi illum quas recusandae animi asperiores aperiam cum et delectus vel.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <!--Tours-->
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi repudiandae suscipit esse at, facilis error eligendi velit itaque ipsam voluptatum sint quia labore aperiam excepturi quas tenetur dolor mollitia.
+                Sunt necessitatibus modi nobis eius vero magni, minus quae, nulla labore laudantium harum quidem dolor quibusdam ut! Inventore voluptas in libero? Blanditiis eligendi cupiditate repudiandae delectus magnam eum nulla maiores?
+                </p>
+                <a href="#" class="ctn" >Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/kerala.jpg" alt="">
+                    <img src="./images/mountain.jpg" alt="">
+                    <img src="./images/sun.jpg" alt="">
+                    <img src="./images/snow.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nam ducimus incidunt</p>
+        <p>Copyright  Explore India Privacy Policy and Cookies Policy </p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links') 
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
